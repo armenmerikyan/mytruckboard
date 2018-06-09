@@ -1,0 +1,14 @@
+.mainContent { 
+    width: 1024px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.joinButton {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	   position: relative; 
+	   top: 370px;
+	   left: 500px; 
+	
+}

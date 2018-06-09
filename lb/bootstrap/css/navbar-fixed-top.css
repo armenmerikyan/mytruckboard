@@ -1,0 +1,218 @@
+.box-sm {
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #f8f8f8;
+}
+.box-sm h1,
+.box-sm h2,
+.box-sm h3,
+.box-sm .h1 {
+    font-family: Roboto;
+    color: #003663;
+
+}
+.box-sm p {
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.box-sm > hr {
+    border-top-color: #d5d5d5;
+}
+.container .box-sm,
+.container-fluid .box-sm {
+    border-radius: 6px;
+}
+.box-sm .container {
+    max-width: 100%;
+}
+
+.box-sm2 {
+    padding: 10px 8px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: #eee;
+
+}
+.box-sm2 h1,
+.box-sm2 h2,
+.box-sm2 .h1 {
+    color: #003663;
+    font-family: Roboto;
+}
+.box-sm2 p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.box-sm2 > hr {
+    border-top-color: #666666;
+}
+.container .box-sm2,
+.container-fluid .box-sm2 {
+    border-radius: 6px;
+}
+.box-sm2 .container {
+    max-width: 100%;
+}
+
+
+.box-sm3 {
+    padding: 10px 8px;
+    margin-bottom: 10px;
+    background-color: #eee;
+
+
+    -webkit-appearance: none;
+
+    cursor: pointer;
+    border: 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+
+}
+.box-sm3 h1,
+.box-sm3 h2,
+.box-sm3 .h1 {
+    color: #003663;
+    font-family: Roboto;
+}
+.box-sm3 p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Roboto;
+
+}
+
+.box-sm3 a {
+    text-decoration: none;
+    color: #000000;
+
+}
+.box-sm3 > hr {
+    border-top-color: #666666;
+}
+.container .box-sm3,
+.container-fluid .box-sm3 {
+    border-radius: 6px;
+}
+.box-sm3 .container {
+    max-width: 100%;
+}
+
+
+.box-sm3:hover
+{
+    background: #b8b8b8;
+}
+
+.box-sm3.alt
+{
+    color: inherit;
+    box-shadow: inset 0 0 0 1px #e6e6e6;
+    background: none;
+}
+
+.box-sm3.alt:hover
+{
+    background: rgba(0,0,0,0.025);
+}
+
+.subfooter {
+    right: 0;
+    left: 0;
+    background-color: #fafafa;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 40px 0;
+    font-family: Roboto;
+    font-size: medium;
+    color: #b8b8b8;
+}
+
+/* Navigations
+----------------------------------------------------------------------------- */
+.header .navbar {
+    margin-bottom: 0;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.main-navigation .navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.main-navigation .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.main-navigation .navbar-default .navbar-nav > li.active > a {
+    background-color: transparent;
+    color: #55acee;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.main-navigation .navbar-default .navbar-nav > li > a:hover,
+.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+    color: #55acee;
+}
+
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li > a.active {
+    color: #f45906;
+}
+
+.dropdown > li:hover > a, .sup-dropdown li:hover > a {
+    color: #f45906;
+}
+
+.navbar-default .navbar-nav > li > a:after {
+    background-color: #f45906;
+}
+
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
+    border-color: #f45906;
+}
+
+
+@media (min-width:768px) {
+    .main-navigation .navbar-default .navbar-nav > li > a {
+        padding-top: 30px;
+
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .main-navigation .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-nav {
+        float: left !important;
+    }
+}
+@media (max-width:767px) {
+    .header.navbar-fixed-top {
+        position: absolute;
+    }
+}
